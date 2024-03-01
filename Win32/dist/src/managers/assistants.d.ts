@@ -7,6 +7,5 @@ export declare class AssistantManager extends DataManager {
     getName(assistantId: string): string | undefined;
     getId(name: string): string | undefined;
     download(assistantIds: string[]): Promise<string[]>;
-    listInfo(assistantIds: string[]): Promise<string>;
 }
 //# sourceMappingURL=assistants.d.ts.map

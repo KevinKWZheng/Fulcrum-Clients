@@ -8,6 +8,6 @@
         "uuid": "^9.0.1"
     },
     "scripts": {
-        "start":"env/node/npm.exe i&&env/node/node.exe dist/Client.js"
+        "cli":"env/node/node.exe dist/Client.js"
     }
 }
